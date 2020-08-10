@@ -5,7 +5,7 @@ import AppProvider from './AppProvider.js'
 import { AppContext } from './AppProvider.js'
 import './App.css';
 
-import { Home } from './pages/Home';
+import { Home } from './pages/Home/Home.jsx';
 import { Register } from './pages/register/Register.jsx'
 
 const StyledApp = styled.div`

@@ -57,7 +57,8 @@ export function Register() {
                     <div className="info-main">
                         <img src={require("../../assets/bus.png")} />
                         <div>
-                            <p>The purpose of registering, is to ensure your safety...</p>
+                            <h3>Want to travel interstate?</h3>
+                            <p>Register to have the backup of the FRSC</p>
                         </div>
                     </div>
                 </Info>
@@ -74,7 +75,7 @@ export function Register() {
                         </div>
                         <div>
                             <label htmlFor="">Seats</label>
-                            <input type="text" name="Seats" id="Seats" ref={register({required: true, maxLength: 80})} />
+                            <input type="number" name="Seats" id="Seats" ref={register({required: true, maxLength: 80})} />
                         </div>
                         <div>
                             <label htmlFor="">Plate Number</label>

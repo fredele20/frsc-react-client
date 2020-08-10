@@ -18,7 +18,9 @@ export const RegDiv = styled.div`
     align-content: center;
 
     @media screen and (max-width: 500px) and (min-width: 280px){
-        font-size: 12px;
+        h1 {
+            font-size: 25px;
+        }
     }
 `;
 
@@ -48,6 +50,13 @@ export const Info = styled.div`
     .info-main{
         margin: auto;
     }
+
+    @media screen and (max-width: 500px) and (min-width: 280px){
+        width: 100%;
+        img {
+            width: 30%;
+        }
+    }
 `;
 
 export const FormBody = styled.div`
@@ -75,12 +84,8 @@ export const FormBody = styled.div`
     }
 
     div label {
-        /* align-items: left; */
-        /* margin-left: -300px; */
-        /* border: 1px solid yellow; */
         margin-top: 1.7em;
         margin-bottom: 0.5em;
-        /* width: 50%; */
         text-align: start;
         font-size: 15px;
     }

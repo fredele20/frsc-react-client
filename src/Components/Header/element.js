@@ -60,7 +60,7 @@ export const Flexbox = styled.div`
     #sidebarMenu {
       height: 100%;
       position: fixed;
-      top: 0;
+      top: 20;
       left: 0;
       width: 100%;
       transform: translateX(-1000px);
@@ -123,8 +123,8 @@ export const Flexbox = styled.div`
       z-index: 99;
       height: 100%;
       width: 100%;
-      top: 37px;
-      right: 30px;
+      top: 17px;
+      right: 20px;
       height: 30px; 
       width: 30px;
       z-index: 400;
